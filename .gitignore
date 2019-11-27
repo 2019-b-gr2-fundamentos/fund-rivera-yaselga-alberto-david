@@ -1,7 +1,7 @@
 const edadString=prompt("Ingrese un numero");
 const edad=Number(edadString);
 
-if (edad>0 && edad<=6){
+if (edad>0 && edad<=6)
     console.log("Guagua");
 }else{
     if(edad>6 && edad<=18){
