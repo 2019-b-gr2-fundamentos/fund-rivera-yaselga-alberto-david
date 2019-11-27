@@ -53,13 +53,16 @@ console.log(arregloNumeros[indiceElementoCinco]);
 //1)let tamanio =arregloNUmeros.length//5
 //2)tamanio >0
 //3) --
-for(let numerodeExdemiCrush=5;numerodeExdemiCrush >0;numerodeExdemiCrush--)
-{
+/*for(let numerodeExdemiCrush=5;numerodeExdemiCrush >0;numerodeExdemiCrush--)
+//{
     console.log(arregloNumeros.length);
 
-}
+}*/
 //JUEGO EN CLASE
 //1)Crear un arrego de 5 elementos
+const arreglo=[];
+arregloNumeros.push(6);
+console.log('arregloNumeros',arregloNumeros);//
 //2)cada elemento sera uno o cero
 //ejemplo: [0,0,1,1,0]
 //3)Exista el menos un elemento "1"
