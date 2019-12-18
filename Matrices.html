@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Deber de David</title>
+</head>
+<body>
+    <h1>Comparar arreglos</h1>
+    <script>
+     array1 = [1, 2, 3];    
+        array2 =   [1, 2, 3];  
+
+    //Se ordenan ambos arreglos
+    array1.sort();
+    array2.sort();
+
+    // y se realiza la comparación de cada elemento
+    document.write(array1.length==array2.length && array1.every(function(v,i) { return v === array2[i] } ));
+
+    </script>
+
+</body>
+</html>
